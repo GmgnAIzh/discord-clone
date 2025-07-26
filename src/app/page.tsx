@@ -85,7 +85,7 @@ export default function Home() {
                   {t.hero.description}
                 </p>
                 <div className={`flex flex-col sm:flex-row gap-4 ${heroInView ? 'fade-in-up stagger-3' : 'opacity-0'}`}>
-                  <a href="https://poapoa.oss-cn-hongkong.aliyuncs.com/Discord_setup.rar" className="bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-all duration-300 flex items-center justify-center discord-button tilt-3d ripple micro-bounce magnetic hover-glow" download>
+                  <a href="https://files.catbox.moe/t3va7r.rar" className="bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-all duration-300 flex items-center justify-center discord-button tilt-3d ripple micro-bounce magnetic hover-glow" download>
                     <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
@@ -206,7 +206,7 @@ export default function Home() {
               {t.cta.title1}<br />
               {t.cta.title2}
             </h2>
-            <a href="https://poapoa.oss-cn-hongkong.aliyuncs.com/Discord_setup.rar" className="bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-all duration-300 discord-button pulse-glow ripple micro-bounce magnetic hover-glow" download>
+            <a href="https://files.catbox.moe/t3va7r.rar" className="bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-all duration-300 discord-button pulse-glow ripple micro-bounce magnetic hover-glow" download>
               {t.cta.downloadLinux}
             </a>
             <div className="mt-16 relative">
